@@ -1,5 +1,5 @@
 
-# Getting Started with Apimatic Calcu
+# Getting Started with APIMATIC CALCULATOR
 
 ## Introduction
 
@@ -10,23 +10,23 @@ Simple calculator API hosted on APIMATIC
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```php
-composer require "syed-subtain/apimaticignoresdk:2.2.11"
+composer require "syed-subtain/apimaticignoresdk:1.2.356"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```php
 "require": {
-    "syed-subtain/apimaticignoresdk": "2.2.11"
+    "syed-subtain/apimaticignoresdk": "1.2.356"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/syed-subtain/apimaticignoresdk#2.2.11
+https://packagist.org/packages/syed-subtain/apimaticignoresdk#1.2.356
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/php-new-repos/tree/2.2.11/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.2.356/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -46,18 +46,18 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```php
-$client = ApimaticCalcuClientBuilder::init()
+$client = APIMATICCALCULATORClientBuilder::init()
     ->environment(Environment::PRODUCTION)
     ->build();
 ```
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/Syed-Subtain/php-new-repos/tree/2.2.11/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.2.356/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [ApiException](https://www.github.com/Syed-Subtain/php-new-repos/tree/2.2.11/doc/api-exception.md)
-* [HttpRequest](https://www.github.com/Syed-Subtain/php-new-repos/tree/2.2.11/doc/http-request.md)
-* [HttpResponse](https://www.github.com/Syed-Subtain/php-new-repos/tree/2.2.11/doc/http-response.md)
+* [ApiException](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.2.356/doc/api-exception.md)
+* [HttpRequest](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.2.356/doc/http-request.md)
+* [HttpResponse](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.2.356/doc/http-response.md)
 
