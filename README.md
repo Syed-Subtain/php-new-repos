@@ -10,23 +10,23 @@ Simple calculator API hosted on APIMATIC
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```php
-composer require "syed-subtain/apimaticignoresdk:1.2.366"
+composer require "syed-subtain/apimaticignoresdk:1.11.14"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```php
 "require": {
-    "syed-subtain/apimaticignoresdk": "1.2.366"
+    "syed-subtain/apimaticignoresdk": "1.11.14"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/syed-subtain/apimaticignoresdk#1.2.366
+https://packagist.org/packages/syed-subtain/apimaticignoresdk#1.11.14
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.2.366/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.11.14/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -53,11 +53,11 @@ $client = ApimaticCalculatorClientBuilder::init()
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.2.366/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.11.14/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [ApiException](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.2.366/doc/api-exception.md)
-* [HttpRequest](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.2.366/doc/http-request.md)
-* [HttpResponse](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.2.366/doc/http-response.md)
+* [ApiException](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.11.14/doc/api-exception.md)
+* [HttpRequest](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.11.14/doc/http-request.md)
+* [HttpResponse](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.11.14/doc/http-response.md)
 
