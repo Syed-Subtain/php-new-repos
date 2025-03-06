@@ -9,24 +9,24 @@ Simple calculator API hosted on APIMATIC
 
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
-```php
-composer require "syed-subtain/apimaticignoresdk:1.11.14"
+```bash
+composer require "syed-subtain/apimaticignoresdk:9.6.1"
 ```
 
 Or add it to the composer.json file manually as given below:
 
-```php
+```json
 "require": {
-    "syed-subtain/apimaticignoresdk": "1.11.14"
+    "syed-subtain/apimaticignoresdk": "9.6.1"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/syed-subtain/apimaticignoresdk#1.11.14
+https://packagist.org/packages/syed-subtain/apimaticignoresdk#9.6.1
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.11.14/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/php-new-repos/tree/9.6.1/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -53,11 +53,13 @@ $client = ApimaticCalculatorClientBuilder::init()
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.11.14/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/php-new-repos/tree/9.6.1/doc/controllers/simple-calculator.md)
 
-## Classes Documentation
+## Additional Documentation
 
-* [ApiException](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.11.14/doc/api-exception.md)
-* [HttpRequest](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.11.14/doc/http-request.md)
-* [HttpResponse](https://www.github.com/Syed-Subtain/php-new-repos/tree/1.11.14/doc/http-response.md)
+### Wrappers
+
+* [ApiException](https://www.github.com/Syed-Subtain/php-new-repos/tree/9.6.1/doc/api-exception.md)
+* [HttpRequest](https://www.github.com/Syed-Subtain/php-new-repos/tree/9.6.1/doc/http-request.md)
+* [HttpResponse](https://www.github.com/Syed-Subtain/php-new-repos/tree/9.6.1/doc/http-response.md)
 
